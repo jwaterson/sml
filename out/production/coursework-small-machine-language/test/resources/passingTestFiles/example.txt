@@ -1,0 +1,21 @@
+1 lin 0 1
+2 add 0 0 0
+3 lin 1 1
+4 add 1 0 1
+5 add 2 0 1
+6 lin 3 8
+7 lin 4 13
+8 lin 5 21
+9 sub 6 5 6
+10 div 7 0 1
+11 div 8 1 0
+12 mul 9 7 8
+13 mul 10 0 1
+14 mul 11 1 2
+15 out 11
+16 out 10
+17 lin 12 2
+17a lin 13 1
+18 sub 12 12 13
+19 bnz 12 18
+20 out 12
